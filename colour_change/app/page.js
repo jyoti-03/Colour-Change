@@ -23,10 +23,10 @@ function App() {
     <center>
       <div className='box' style={{ backgroundColor: boxColor }}></div>
       <Button count={(value) => handleCount(value)} />
-      <p className='pG'>Grey: {colorCounts.grey}</p>
-      <p className='pT'>Teal: {colorCounts.teal}</p>
-      <p className='pR'>Red: {colorCounts.red}</p>
-      <p className='pB'>Blue: {colorCounts.blue}</p>
+      <p>Grey: {colorCounts.grey}</p>
+      <p>Teal: {colorCounts.teal}</p>
+      <p>Red: {colorCounts.red}</p>
+      <p>Blue: {colorCounts.blue}</p>
     </center>
   );
 }
